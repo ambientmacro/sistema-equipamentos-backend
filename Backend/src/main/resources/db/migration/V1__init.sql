@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS tipo_categoria (
+    id BIGINT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL
+);
+
+INSERT INTO tipo_categoria (id, nome) VALUES
+(1, 'OPERACIONAL'),
+(2, 'GERENCIAL'),
+(3, 'DEVELOPER')
+ON CONFLICT (id) DO NOTHING;

@@ -1,0 +1,14 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "sql.validation.enabled": false,
+    "files.exclude": {
+        "**/Backend/.m2": true,
+        "**/Backend/target": true,
+        "**/Checklist_equipamentos/dist": true
+    },
+    "search.exclude": {
+        "**/Backend/.m2": true,
+        "**/Backend/target": true,
+        "**/Checklist_equipamentos/dist": true
+    }
+}

@@ -8,3 +8,5 @@ IA_Python/__pycache__/
 Backend/uploads/
 Checklist_equipamentos/dist/
 *.log
+
+node_modules
